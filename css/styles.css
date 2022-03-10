@@ -93,7 +93,7 @@ body {
     padding-top: 54px;
     padding-right: 54px;
     padding-left: 54px;
-    /* padding-bottom: 298px; */
+    /* padding-bottom: 298px; */    
     font-family: "Bebas Neue", cursive;
     background-color: #fff;
 }
@@ -146,8 +146,68 @@ body {
     font-weight: 400;
 }
 .text-wrapper-info {
+    display: flex;
 }
 .text-wrapper-time {
+    color: #888888;
+    font-size: 14px;
+    line-height: 16.41px;
+    margin-right: 24px;
+    display: flex;
 }
+
+.text-wrapper-time::before {
+    content: "";
+    background-image: url("../img/watch.svg");
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 4px;
+}
+
 .text-wrapper-count {
+    color: #666666;
+    font-size: 14px;
+    line-height: 16.41px;
+    display: flex;
+}
+
+.text-wrapper-count::before {
+    content: "";
+    background-image: url("../img/watch.svg");
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-repeat: no-repeat;
+    margin-right: 4px;
+}
+
+.last-list-item:last-child {
+    margin-bottom: 23px;
+}
+
+.btn-download {
+    padding: 12px 209px;
+    background-color: #1E90FF;
+    border: none;
+    outline: none;
+    display: flex;
+    
+}
+
+.btn-download span {
+    /* font-weight: 700; */
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16.41px;
+    display: block;
+}
+
+.btn-download:hover {
+    background-color: #1E90FFCC;
+}
+
+.btn-download:active {
+    background-color: #1E90FF99;
 }
