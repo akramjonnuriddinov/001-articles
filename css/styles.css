@@ -58,50 +58,6 @@ img {
 
 /* MAIN CONTENT */
 
-
-/* RETINA BG */
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
-    .hero {
-        background-image: url("../img/left-bg@2x.jpg");
-    }
-
-
-
-    /* LEFT WRAPPER */
-.wrapper-container {
-    display: flex;
-}
-
-
-.wrapper-left {
-    width: 50%;
-    padding: 326px 157px;
-    background-image: url("../img/left-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.wrapper-left-title {
-    color: #fff;
-    width: 285px;
-    font-family: "Bebas Neue";
-    font-weight: 400;
-    margin: 0;
-    margin-bottom: 24px;
-    font-size: 24px;
-    letter-spacing: 2px;
-    line-height: 28.8px;
-}
-
-
-/* MAIN-LINK */
 .main-link {
     display: inline-block;
     background-color: #1e90ff;
@@ -136,14 +92,50 @@ only screen and (                min-resolution: 2dppx) {
     background-position: center center;
 }
 
+/* RETINA BG */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+    .hero {
+        background-image: url("../img/left-bg@2x.jpg");
+    }
+}
 
 
-/* WRAPPER RIGHT */
+.wrapper-container {
+    display: flex;
+}
+
 .wrapper-right {
     width: 50%;
     max-width: 600px;
     padding: 54px 54px 298px 54px;
     background-color: #fff;
+}
+
+.wrapper-left {
+    width: 50%;
+    padding: 326px 157px;
+    background-image: url("../img/left-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper-left-title {
+    color: #fff;
+    width: 285px;
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 28.8px;
 }
 
 .last-child-title {
@@ -173,6 +165,7 @@ only screen and (                min-resolution: 2dppx) {
     width: 492px;
 }
 
+
 .text-wrapper {
     padding: 16px;
     font-family: "Roboto Condensed";
@@ -192,11 +185,9 @@ only screen and (                min-resolution: 2dppx) {
     color: #222222;
     font-weight: 400;
 }
-
 .text-wrapper-info {
     display: flex;
 }
-
 .text-wrapper-time {
     color: #888888;
     font-size: 14px;
