@@ -215,7 +215,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .text-wrapper-count::before {
     content: "";
-    background-image: url("../img/watch.svg");
+    background-image: url("../img/eye.svg");
     display: inline-block;
     height: 16px;
     width: 16px;
